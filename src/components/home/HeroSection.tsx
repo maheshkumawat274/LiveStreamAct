@@ -69,7 +69,7 @@ export const Hero = () => {
                             {/* Stats */}
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 fade-in">
                                 {[
-                                    { value: '20,000+', label: 'Live Channels' },
+                                    { value: '12,000+', label: 'Live Channels' },
                                     { value: '99.9%', label: 'Uptime' },
                                     { value: '4K', label: 'HD Quality' },
                                     { value: '24/7', label: 'Support' }
