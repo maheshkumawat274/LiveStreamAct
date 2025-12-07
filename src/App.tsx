@@ -13,7 +13,7 @@ const App = () => {
       <Navbar/>
       <ScrollTop/>
       <Routes>
-      <Route path="/*" element={<MainUi/>}/>
+      <Route path="/" element={<MainUi/>}/>
       <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
       <Route path="/refund-policy" element={<RefundPolicy/>}/>
       <Route path="/terms-conditions" element={<TermsConditions/>}/>

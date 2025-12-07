@@ -17,10 +17,6 @@ export const FAQs = () => {
                     answer: 'StreamsAct works on all major devices including Smart TVs (Samsung, LG, Android TV), smartphones (iOS & Android), tablets, computers, Fire Stick, Apple TV, MAG boxes, and any device that supports IPTV players like VLC or Perfect Player.'
                 },
                 {
-                    question: 'Do you offer a free trial?',
-                    answer: 'Yes! We offer a free 24-hour trial so you can test our service quality, channel selection, and streaming performance before committing to a subscription.'
-                },
-                {
                     question: 'What internet speed do I need?',
                     answer: 'We recommend a minimum of 10 Mbps for HD streaming and 25 Mbps for 4K content. Our service includes anti-freeze technology that adapts to your connection speed for optimal performance.'
                 },
