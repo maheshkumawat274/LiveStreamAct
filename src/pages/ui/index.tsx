@@ -1,21 +1,18 @@
-import { Contact } from "../../components/Contact"
-import { FAQs } from "../../components/Faq"
-import { Features } from "../../components/Features"
-import { Footer } from "../../components/Footer"
-import { Navbar } from "../../components/Header"
-import { Hero } from "../../components/HeroSection"
-import { OTTSolution } from "../../components/OTTsection"
-import { Pricing } from "../../components/Pricing"
-import { HowItWorks } from "../../components/Process"
-import { Specialization } from "../../components/Specailzation"
-import { Testimonials } from "../../components/Testimonials"
-import { WhoWeAre } from "../../components/WhoWeAre"
+import { Contact } from "../../components/contact/Contact"
+import { FAQs } from "../../components/home/Faq"
+import { Features } from "../../components/home/Features"
+import { Hero } from "../../components/home/HeroSection"
+import { OTTSolution } from "../../components/home/OTTsection"
+import { Pricing } from "../../components/home/Pricing"
+import { HowItWorks } from "../../components/home/Process"
+import { Specialization } from "../../components/home/Specailzation"
+import { Testimonials } from "../../components/home/Testimonials"
+import { WhoWeAre } from "../../components/home/WhoWeAre"
 
 
 const MainUi = () => {
   return (
     <>
-     <Navbar/>
      <Hero/>
      <WhoWeAre/>
      <Features/>
@@ -26,7 +23,6 @@ const MainUi = () => {
      <Testimonials/>
      <Contact/>
      <FAQs/>
-     <Footer/>
     </>
   )
 }

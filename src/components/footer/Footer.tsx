@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
      export const Footer = () => {
             const footerLinks = {
                 'Quick Links': ['Home', 'Features', 'Pricing', 'Channels', 'Contact'],
@@ -60,9 +62,9 @@
                                 © 2025 StreamsAct. All rights reserved.
                             </p>
                             <div className="flex space-x-6 text-sm">
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">Privacy Policy</a>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">Terms of Service</a>
-                                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">Refund Policy</a>
+                                <p className="text-gray-400 hover:text-purple-400 transition-colors"><Link to="/privacy-policy">Privacy Policy</Link></p>
+                                <p className="text-gray-400 hover:text-purple-400 transition-colors"><Link to="/terms-conditions">Terms & conditions Service</Link></p>
+                                <p className="text-gray-400 hover:text-purple-400 transition-colors"><Link to="/refund-policy">Refund Policy</Link></p>
                             </div>
                         </div>
                     </div>
