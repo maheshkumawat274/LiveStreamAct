@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
                                     <span className="text-2xl font-bold gradient-text">StreamsAct</span>
                                 </div>
                                 <p className="text-gray-400 mb-4 max-w-sm">
-                                    Premium IPTV service delivering 20,000+ channels worldwide. Experience entertainment like never before.
+                                    Premium IPTV service delivering 12,000+ channels worldwide. Experience entertainment like never before.
                                 </p>
                                 <div className="flex space-x-3">
                                     {['f', '𝕏', '📷', '▶'].map((icon, i) => (
