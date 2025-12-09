@@ -71,7 +71,7 @@ export const Features = () => {
                         </div>
                         <div className="text-center mt-4">
                             <button className="gradient-bg text-white px-10 py-4 rounded-lg font-bold text-lg btn-glow">
-                               <Link to="/order-now">Get Started Now</Link>
+                               <Link to="/contact-purchase">Get Started Now</Link>
                             </button>
                         </div>
                     </div> 

@@ -1,5 +1,8 @@
+import { usePopup } from "../popup/usePopup";
+
   export const Pricing = () => {
   const individualPlans = [
+    
     {
         name: '1 Month Plan',
         price: '$12.99',
@@ -150,7 +153,7 @@
     }
 ];
 
-
+            const { openPopup } = usePopup();
             return (
                 <section id="pricing" className="pt-24 pb-12 relative">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -200,7 +203,7 @@
                                             ))}
                                         </ul>
 
-                                        <button className={`w-full ${plan.popular ? 'gradient-bg' : 'glass-card'} text-white px-6 py-3 rounded-lg font-bold btn-glow `}>
+                                        <button onClick={openPopup} className={`w-full ${plan.popular ? 'gradient-bg' : 'glass-card'} text-white px-6 py-3 rounded-lg font-bold btn-glow `}>
                                             Get It Now
                                         </button>
                                     </div>
@@ -245,7 +248,7 @@
                                             ))}
                                         </ul>
 
-                                        <button className={`w-full ${plan.popular ? 'gradient-bg' : 'glass-card'} text-white px-6 py-3 rounded-lg font-bold btn-glow`}>
+                                        <button onClick={openPopup} className={`w-full ${plan.popular ? 'gradient-bg' : 'glass-card'} text-white px-6 py-3 rounded-lg font-bold btn-glow`}>
                                             Get It Now
                                         </button>
                                     </div>

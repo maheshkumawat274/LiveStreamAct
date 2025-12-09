@@ -39,19 +39,42 @@ export const Contact = () => {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                             {/* Contact Info */}
                             <div className="space-y-6">
-                                <div className="glass-card p-6 rounded-xl hover-scale">
-                                    <div className="flex items-start">
-                                        <div className="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                                            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="text-white font-bold text-lg mb-2">Email Us</h3>
-                                            <p className="text-gray-400">support@streamsact.com</p>
-                                            <p className="text-gray-400">sales@streamsact.com</p>
-                                        </div>
-                                    </div>
+                                {/* CALL SUPPORT */}
+                        <a 
+                          href="tel:+1234567890"
+                          className="flex items-center glass-card p-6 rounded-xl hover-scale group transition-all"
+                        >
+                            {/* Icon Box */}
+                            <div className="min-w-12 min-h-12 w-12 h-12 gradient-bg rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform text-xl">
+                                📞
+                            </div>
+                        
+                            {/* Text Box */}
+                            <div className="ml-4">
+                                <h4 className="text-white font-bold text-lg">Call Support</h4>
+                                <p className="text-gray-400 text-sm">Talk to our team instantly</p>
+                            </div>
+                        </a>
+                        
+                        <div className="glass-card p-6 rounded-xl hover-scale">
+                            
+                            <a 
+                                href="mailto:support@streamsact.com"
+                                className="flex items-start "
+                            >
+                                <div className="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:scale-110 transition-transform">
+                                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                            
+                                <div>
+                                    <h3 className="text-white font-bold text-lg mb-2">Email Us</h3>
+                                    
+                                    <p className="text-gray-400">support@streamsact.com</p>
+                                    <p className="text-gray-400">sales@streamsact.com</p>
+                                </div>
+                            </a>
                                 </div>
 
                                 <div className="glass-card p-6 rounded-xl hover-scale">
@@ -63,8 +86,7 @@ export const Contact = () => {
                                         </div>
                                         <div>
                                             <h3 className="text-white font-bold text-lg mb-2">Live Chat</h3>
-                                            <p className="text-gray-400">Available 24/7 for instant support</p>
-                                            <button className="mt-2 text-purple-400 font-semibold hover:text-purple-300">Start Chat →</button>
+                                            <p className="text-gray-400">Chat with our support agent</p>
                                         </div>
                                     </div>
                                 </div>

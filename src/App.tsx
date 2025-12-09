@@ -12,9 +12,13 @@ import { Route, Routes } from "react-router-dom";
 import PricingPage from "./pages/pricing";
 import ProcessPage from "./pages/process";
 import ContactPurchasePage from "./pages/contactpurchase";
+import PopupModal from "./components/popup/PopupModel";
+import { PopupProvider } from "./components/popup/PopupProvider";
 const App = () => {
+
   return (
     <>
+     <PopupProvider>
      <div>
       <Navbar/>
       <ScrollTop/>
@@ -30,7 +34,10 @@ const App = () => {
       <Route path="/terms-conditions" element={<TermsConditions/>}/>
      </Routes>
      <Footer/>
+     <PopupModal/>
+
      </div>
+    </PopupProvider>
     </>
   )
 }
