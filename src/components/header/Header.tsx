@@ -27,15 +27,15 @@ export const Navbar = () => {
                 <div className="flex items-center justify-between">
 
                     {/* LOGO */}
-                    <Link to="/" className="flex items-center space-x-2">
-                        <div className="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center glow">
-                            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <span className="text-2xl font-bold gradient-text">StreamsAct</span>
-                    </Link>
+                     <div className="h-14 w-24 px-2 overflow-hidden flex items-center">
+                       <Link to="/" className="block h-full w-full">
+                         <img
+                           src="/imgs/logo.png"
+                           alt="Podcast Logo"
+                           className="h-full w-full object-cover scale-125"
+                         />
+                       </Link>
+                     </div>
 
                     {/* DESKTOP MENU */}
                     <div className="hidden md:flex space-x-8">

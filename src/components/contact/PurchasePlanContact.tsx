@@ -90,7 +90,7 @@ export const PurchasePlanContact = () => {
           {/* LEFT SIDE (same UI as before) */}
           <div className="space-y-6">
             <a
-              href="tel:+1234567890"
+              href="tel:+18558112105"
               className="flex items-center glass-card p-6 rounded-xl hover-scale group transition-all"
             >
               <div className="min-w-12 min-h-12 w-12 h-12 gradient-bg rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform text-xl">
@@ -131,8 +131,8 @@ export const PurchasePlanContact = () => {
                     Email Us
                   </h3>
 
-                  <p className="text-gray-400">support@streamsact.com</p>
-                  <p className="text-gray-400">sales@streamsact.com</p>
+                  <p className="text-gray-400">Jobmaryk@gmail.com</p>
+                  <p className="text-gray-400">Jobmaryk@gmail.com</p>
                 </div>
               </a>
             </div>
@@ -190,27 +190,6 @@ export const PurchasePlanContact = () => {
               </div>
             </div>
 
-            <div className="glass-card p-6 rounded-xl">
-              <h3 className="text-white font-bold text-lg mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
-                {["facebook", "twitter", "instagram", "youtube"].map(
-                  (social) => (
-                    <a
-                      key={social}
-                      href="#"
-                      className="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center hover-scale"
-                    >
-                      <span className="text-white text-xl">
-                        {social === "facebook" && "f"}
-                        {social === "twitter" && "𝕏"}
-                        {social === "instagram" && "📷"}
-                        {social === "youtube" && "▶"}
-                      </span>
-                    </a>
-                  )
-                )}
-              </div>
-            </div>
           </div>
 
           {/* RIGHT: form */}

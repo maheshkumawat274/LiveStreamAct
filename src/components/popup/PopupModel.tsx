@@ -29,7 +29,7 @@ const PopupModal = () => {
 
                     {/* CALL SUPPORT */}
                     <a 
-                        href="tel:+1234567890"
+                        href="tel:+18558112105"
                         className="flex items-center glass-card p-4 rounded-xl hover-scale group"
                     >
                         <div className="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 group-hover:scale-110 transition">
