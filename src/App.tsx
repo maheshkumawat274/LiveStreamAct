@@ -14,6 +14,7 @@ import ProcessPage from "./pages/process";
 import ContactPurchasePage from "./pages/contactpurchase";
 import PopupModal from "./components/popup/PopupModel";
 import { PopupProvider } from "./components/popup/PopupProvider";
+import DeviceActivation from "./components/DeviceActivation";
 const App = () => {
 
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <Route path="/process" element={<ProcessPage/>}/>
       <Route path="/contact-us" element={<ContactPage/>}/>
       <Route path="/contact-purchase" element={<ContactPurchasePage/>}/>
+      <Route path="/device-activation" element={<DeviceActivation/>}/>
       <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
       <Route path="/refund-policy" element={<RefundPolicy/>}/>
       <Route path="/terms-conditions" element={<TermsConditions/>}/>

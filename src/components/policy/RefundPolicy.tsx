@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
             return (
                 <div className="min-h-screen pt-24 pb-16">
                     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <Link to="/"
+                        <button 
                             
                             className="glass-card px-6 py-3 rounded-lg text-white font-semibold mb-8 hover-scale flex items-center"
                         >
                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                             </svg>
-                            Back to Home
-                        </Link>
+                            <Link to="/">Back to Home</Link>
+                        </button>
                         
                         <div className="glass-card p-8 md:p-12 rounded-2xl">
                             <h1 className="text-4xl md:text-5xl font-black gradient-text mb-4">Refund Policy</h1>
