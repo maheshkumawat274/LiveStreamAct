@@ -100,6 +100,11 @@ export const Footer = () => {
                   ✉️ Jobmaryk@gmail.com
                 </a>
               </li>
+              <li>
+                <p className="text-gray-400 hover:text-purple-400 transition-colors">
+                 📍 3rd Floor FLAT No-24 GROUP -1 Pocket -C JANTA FLATS, DDA HASTAL, UTTAM NAGAR, SHIV MANDIR, New Delhi, 110059
+                </p>
+              </li>
             </ul>
           </div>
         </div>
@@ -107,7 +112,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2025 StreamsAct. All rights reserved.
+            Please add this on the right bottom of every page - ©copyright 2025 watchstreamactonline.com (A P TECH SOLUTIONS) All Rights Reserved.
           </p>
 
           <div className="flex space-x-6 text-sm">

@@ -1,47 +1,105 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic Meta -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ottstream</title>
+    <script type="module" src="/src/main.jsx"></script>
+    <title>OTT Stream – Watch Movies, Web Series & Live Content</title>
+
+    <!-- SEO Meta -->
+    <meta
+      name="description"
+      content="OTT Stream lets you watch movies, web series, live TV and premium content online. Fast, secure and easy streaming platform."
+    />
+    <meta
+      name="keywords"
+      content="OTT Stream, watch movies online, web series, live TV, streaming platform"
+    />
+    <meta name="author" content="OTT Stream" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (Facebook / WhatsApp) -->
+    <meta property="og:title" content="OTT Stream – Online Streaming Platform" />
+    <meta
+      property="og:description"
+      content="Watch movies, web series and live content on OTT Stream."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://watchstreamactonline.com/" />
+    <meta
+      property="og:image"
+      content="https://watchstreamactonline.com/imgs/logo.png"
+    />
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17887581017"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17887581017');
+</script>
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="OTT Stream – Online Streaming Platform"
+    />
+    <meta
+      name="twitter:description"
+      content="Watch movies, web series and live content on OTT Stream."
+    />
+    <meta
+      name="twitter:image"
+      content="https://watchstreamactonline.com/imgs/logo.png"
+    />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/imgs/logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/imgs/logo.png" />
+
+    <!-- Android -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/imgs/logo.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/imgs/logo.png" />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/logo.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="OTT Stream" />
   </head>
+
   <body>
     <div id="root"></div>
-    <script type="text/babel">
-        const { useState, useEffect, useRef } = React;
-
-        // TypeScript-style interfaces (using JSDoc for type hints)
-        /**
-         * @typedef {Object} Feature
-         * @property {string} icon
-         * @property {string} title
-         * @property {string} description
-         */
-
-        /**
-         * @typedef {Object} PricingPlan
-         * @property {string} name
-         * @property {string} price
-         * @property {string} duration
-         * @property {string[]} features
-         * @property {boolean} popular
-         */
-
+    
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src =
+          "https://embed.tawk.to/6960ac982fd2dc197d229ebc/1jegq4dra";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
     </script>
-    <script type="module" src="/src/main.tsx"></script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/693b08eaf831981980dd40a4/1jc79lld2';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <!-- End of Tawk.to Script -->
   </body>
 </html>

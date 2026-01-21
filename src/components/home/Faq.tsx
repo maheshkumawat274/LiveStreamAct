@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const FAQs = () => {
             const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -96,7 +97,7 @@ export const FAQs = () => {
                         <div className="text-center mt-12">
                             <p className="text-gray-400 mb-4">Still have questions?</p>
                             <button className="gradient-bg text-white px-8 py-3 rounded-lg font-bold btn-glow">
-                                Contact Support
+                                <Link to="/contact-us">Contact Support</Link>
                             </button>
                         </div>
                     </div>
