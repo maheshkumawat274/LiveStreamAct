@@ -112,7 +112,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            Please add this on the right bottom of every page - ©copyright 2025 watchstreamactonline.com (A P TECH SOLUTIONS) All Rights Reserved.
+            Ccopyright 2025 watchstreamactonline.com (A P TECH SOLUTIONS) All Rights Reserved.
           </p>
 
           <div className="flex space-x-6 text-sm">
