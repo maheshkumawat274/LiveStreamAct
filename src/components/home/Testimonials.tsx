@@ -5,7 +5,7 @@
                     role: 'Premium User',
                     avatar: '👨‍💼',
                     rating: 5,
-                    text: 'Best IPTV service I have ever used! Crystal clear quality and amazing channel selection.'
+                    text: 'Best service I have ever used! Crystal clear quality and amazing channel selection.'
                 },
                 {
                     name: 'Sarah Johnson',

@@ -67,7 +67,7 @@ export const Features = () => {
                             ))}
                         </div>
                         <div className="flex justify-center pt-6">
-                          <p className="text-center max-w-3xl text-gray-400 mx-auto text-xl">Join the thousands of satisfied customers who have made us their go-to IPTV subscription service. Upgrade your entertainment with our <span className="gradient-text font-bold"> VIP Premium IPTV account today!</span></p>
+                          <p className="text-center max-w-3xl text-gray-400 mx-auto text-xl">Join the thousands of satisfied customers who have made us their go-to subscription service. Upgrade your entertainment with our <span className="gradient-text font-bold"> VIP Premium account today!</span></p>
                         </div>
                         <div className="text-center mt-4">
                             <button className="gradient-bg text-white px-10 py-4 rounded-lg font-bold text-lg btn-glow">

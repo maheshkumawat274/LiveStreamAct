@@ -15,7 +15,7 @@ export const Footer = () => {
             </div>
 
             <p className="text-gray-400 mb-4 max-w-sm">
-              Premium IPTV service delivering 12,000+ channels worldwide.
+              Premium service delivering 12,000+ channels worldwide.
               Experience entertainment like never before.
             </p>
 
@@ -69,11 +69,11 @@ export const Footer = () => {
             <h4 className="text-white font-bold mb-4">Device Activation</h4>
             <p className="text-gray-400 text-sm mb-4">
               Activate your TV or device using our secure activation process
-              and get instant access to premium IPTV services.
+              and get instant access to premium services.
             </p>
 
             <Link
-              to="/device-activation"
+              to="/enter-activation-code"
               className="inline-block text-purple-400 hover:text-purple-300 transition-colors font-medium"
             >
               Activate Your Device →
@@ -111,10 +111,15 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+          
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             ©copyright 2026 watchstreamactonline.com (A P TECH SOLUTIONS) All Rights Reserved.
           </p>
-
+          {/* Disclaimer */}
+          <p className="text-gray-400 text-sm mb-4 md:mb-0">
+            Disclaimer: This platform does not host or broadcast content.
+            It provides access management and technical services only.
+          </p>
           <div className="flex space-x-6 text-sm">
             <Link to="/privacy-policy" className="text-gray-400 hover:text-purple-400 transition-colors">
               Privacy Policy

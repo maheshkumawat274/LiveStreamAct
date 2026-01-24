@@ -44,7 +44,7 @@ export const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
                         <div className="text-center">
                             <div className="inline-block glass-card px-4 py-2 rounded-full mb-6 fade-in">
-                                <span className="text-purple-400 text-sm font-semibold">🎬 Premium IPTV Service</span>
+                                <span className="text-purple-400 text-sm font-semibold">🎬 Premium Service</span>
                             </div>
                             
                             <h1 className="text-5xl md:text-7xl font-black text-white mb-6 slide-in-left text-shadow">

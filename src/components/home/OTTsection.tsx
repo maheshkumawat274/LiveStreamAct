@@ -18,7 +18,7 @@ export const OTTSolution = () => {
                 {
                     icon: '🎮',
                     title: 'Set-Top Boxes',
-                    description: 'Compatible with all major IPTV boxes'
+                    description: 'Compatible with all major boxes'
                 },
                 {
                     icon: '🔥',

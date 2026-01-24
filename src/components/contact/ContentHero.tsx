@@ -6,7 +6,7 @@ export const ContactHero = () => {
             <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
                 <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
-                    Get the <span className="gradient-text">Best IPTV Experience</span><br />
+                    Get the <span className="gradient-text">Best Experience</span><br />
                     With Premium Streaming Quality
                 </h1>
 

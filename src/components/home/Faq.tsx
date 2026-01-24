@@ -6,16 +6,12 @@ export const FAQs = () => {
 
             const faqs = [
                 {
-                    question: 'What is IPTV?',
-                    answer: 'IPTV (Internet Protocol Television) is a system where television services are delivered using the Internet protocol suite over a packet-switched network such as the internet, instead of traditional terrestrial, satellite, and cable television formats.'
-                },
-                {
                     question: 'How do I subscribe to StreamsAct?',
-                    answer: 'Simply choose your preferred plan from our pricing section, complete the payment, and you will receive your login credentials via email instantly. You can then download our app or configure your IPTV player and start streaming.'
+                    answer: 'Simply choose your preferred plan from our pricing section, complete the payment, and you will receive your login credentials via email instantly. You can then download our app or configure your  player and start streaming.'
                 },
                 {
                     question: 'What devices are compatible?',
-                    answer: 'StreamsAct works on all major devices including Smart TVs (Samsung, LG, Android TV), smartphones (iOS & Android), tablets, computers, Fire Stick, Apple TV, MAG boxes, and any device that supports IPTV players like VLC or Perfect Player.'
+                    answer: 'StreamsAct works on all major devices including Smart TVs (Samsung, LG, Android TV), smartphones (iOS & Android), tablets, computers, Fire Stick, Apple TV, MAG boxes, and any device that supports  players like VLC or Perfect Player.'
                 },
                 {
                     question: 'What internet speed do I need?',
@@ -61,7 +57,7 @@ export const FAQs = () => {
                                 Frequently Asked <span className="gradient-text">Questions</span>
                             </h2>
                             <p className="text-xl text-gray-400">
-                                Find answers to common questions about our IPTV service
+                                Find answers to common questions about our  service
                             </p>
                         </div>
 

@@ -18,7 +18,7 @@ export const HowItWorks = () => {
                 {
                     step: '03',
                     title: 'Install & Setup',
-                    description: 'Download our app on your preferred device or configure your IPTV player with the provided details.',
+                    description: 'Download our app on your preferred device or configure your player with the provided details.',
                     icon: '⚙️'
                 },
                 {

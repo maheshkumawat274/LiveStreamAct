@@ -11,10 +11,10 @@
                                     Who <span className="gradient-text">We Are?</span>
                                 </h2>
                                  <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                                    We pride ourselves on being a worldwide provider of Premium IPTV services. Our reach extends across continents and borders, connecting users from every corner of the globe.
+                                    We pride ourselves on being a worldwide provider of Premium services. Our reach extends across continents and borders, connecting users from every corner of the globe.
                                 </p>
                                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                                    StreamsAct is a leading IPTV service provider dedicated to delivering premium entertainment experiences to viewers worldwide. We specialize in providing high-quality streaming services with an extensive collection of live TV channels, movies, and series.
+                                    StreamsAct is a leading service provider dedicated to delivering premium entertainment experiences to viewers worldwide. We specialize in providing high-quality streaming services with an extensive collection of live TV channels, movies, and series.
                                 </p>
                                
                                 <p className="text-lg text-gray-300 mb-8 leading-relaxed">
@@ -45,7 +45,7 @@
                                             </div>
                                             <div>
                                                 <h4 className="text-white font-bold text-lg mb-2">Our Vision</h4>
-                                                <p className="text-gray-400">To become the world's most trusted and preferred IPTV service provider by delivering exceptional streaming quality and customer experience.</p>
+                                                <p className="text-gray-400">To become the world's most trusted and preferred service provider by delivering exceptional streaming quality and customer experience.</p>
                                             </div>
                                         </div>
                                         
@@ -65,7 +65,7 @@
                                             </div>
                                             <div>
                                                 <h4 className="text-white font-bold text-lg mb-2">Our Mission</h4>
-                                                <p className="text-gray-400">To provide affordable, high-quality IPTV services that bring unlimited entertainment to households worldwide with cutting-edge technology.</p>
+                                                <p className="text-gray-400">To provide affordable, high-quality services that bring unlimited entertainment to households worldwide with cutting-edge technology.</p>
                                             </div>
                                         </div>
                                     </div>
